@@ -3,7 +3,7 @@
 
 double calculdistance (double x1, double x2, double y1, double y2, double z1, double z2){
     double distance = sqrt(pow(x2-x1,2) + pow(y2-y1,2) + pow(z2-z1,2));
-
+     //Distance =√ ((x2-x1)² + (y2-y1)² + (z2-z1)²)
     return distance;
 }
 

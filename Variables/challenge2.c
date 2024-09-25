@@ -14,7 +14,7 @@ int main(){
 
     double temperature = transforme(celsius);
 
-    printf("\nLa température de Celsius[C] en Kelvin[K] est: %.2lf", temperature);
+    printf("\nLa température de Celsius[C] en Kelvin[K] est: %.7lf", temperature);
 
     return 0;
 }

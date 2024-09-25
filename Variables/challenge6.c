@@ -19,7 +19,12 @@ int main(){
     printf("\nEntrez le deuxieme nombre: ");
     scanf("%lf", &b);
 
-    calcul(a,b);
+    printf("\n%.2lf + %.2lf: %.2lf ", a,b,a+b);
+    printf("\n%.2lf - %.2lf: %.2lf ", a,b,a-b);
+    printf("\n%.2lf / %.2lf: %.2lf ", a,b,a/b);
+    printf("\n%.2lf * %.2lf: %.2lf ", a,b,a*b);
+
+    //calcul(a,b);
 
 
     return 0;

@@ -18,6 +18,6 @@ int main (){
     int quatrieme = nombre % 10;
 
     printf("L'inverse de cette nombres et %d%d%d%d", quatrieme, troisieme, deuxieme, premier);
-
+ 
     return 0;
 }
