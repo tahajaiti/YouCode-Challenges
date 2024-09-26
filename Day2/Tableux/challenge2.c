@@ -9,11 +9,12 @@ int main() {
     int num[n];
 
     for (int i =0; i<n;i++){
-    printf("Entrez une chiffre %d : ", (i+1));
+    printf("\nEntrez une chiffre %d : ", (i+1));
     scanf("%d", &num[i]); }
 
+    printf("[ ");
     for(int i = 0; i < n; i++) {
-        printf("%d\n", num[i]);}
-
+        printf("%d, ", num[i]);}
+    printf("]");
     return 0;
 }
