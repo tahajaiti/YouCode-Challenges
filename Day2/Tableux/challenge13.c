@@ -12,11 +12,15 @@ int main() {
     printf("Entrez une chiffre %d : ", (i+1));
     scanf("%d", &num[i]); }
 
+    printf("les element paires est: ");
+
     printf("[");
 
-    for(int i = n - 1; i >= 0; i--) {
-        printf("%d, ", num[i]);}
-
+    for(int i = 0; i < n; i++) {
+        if (num[i] % 2 == 0){
+            printf("%d, ", num[i]);}
+        }
+        
     printf("]");
 
     return 0;

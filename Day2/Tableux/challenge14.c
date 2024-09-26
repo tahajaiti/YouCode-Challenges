@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n,moyenne;
 
     printf("\ncombien de chiffres vas-tu saisir: ");
     scanf("%d", &n);
@@ -12,12 +12,11 @@ int main() {
     printf("Entrez une chiffre %d : ", (i+1));
     scanf("%d", &num[i]); }
 
-    printf("[");
+    for(int i = 0; i < n; i++) {
+        moyenne += num[i];}
+    moyenne = moyenne/n;
 
-    for(int i = n - 1; i >= 0; i--) {
-        printf("%d, ", num[i]);}
-
-    printf("]");
+    printf("le moyenne est: %d", moyenne);
 
     return 0;
 }
