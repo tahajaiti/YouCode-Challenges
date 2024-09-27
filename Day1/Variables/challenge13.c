@@ -9,7 +9,7 @@ void tobinary (int num){
     int binaryNum[32];
     int i=0;
    
-    for (;num > 0;)
+    while(num > 0)
     {
       binaryNum[i++] = num % 2;
       num /= 2;
