@@ -6,7 +6,6 @@ double produit (double a, double b){
 
 
 int main (){
-
     double a,b;
 
     printf("entrer le premier nombre: ");
@@ -17,7 +16,7 @@ int main (){
 
     double result = produit(a,b);
 
-    printf("le resultat est %.4lf", result);
+    printf("le produit est %.4lf", result);
 
     return 0;
 }
