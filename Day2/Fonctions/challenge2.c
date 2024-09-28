@@ -15,7 +15,7 @@ int main (){
     printf("entrer le deuxieme nombre: ");
     scanf("%lf", &b);
 
-    double result = somme(a,b);
+    double result = produit(a,b);
 
     printf("le resultat est %.4lf", result);
 
