@@ -3,9 +3,9 @@
 void convert(int year) {
     int months = year * 12;
     int days = year * 365;
-    long hours = days * 24;
-    long minutes = hours * 60;
-    long seconds = minutes * 60;
+    long long hours = days * 24;
+    long long minutes = hours * 60;
+    long long seconds = minutes * 60;
 
     printf("\nAnne %d sur :", year);
     printf("\nMois : %d", months);
