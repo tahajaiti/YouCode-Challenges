@@ -6,8 +6,8 @@ struct info{char titre[100]; char auteur[100]; int year;};
 struct info make(char *titres, char *auteurs, int years){
     struct info s1;
 
-    strcpy(s1.titre, titres);
-    strcpy(s1.auteur, auteurs);
+    strcpy(s1.titre, *titres);
+    strcpy(s1.auteur, *auteurs);
     s1.year = years;
 
     return s1;}
