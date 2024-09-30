@@ -5,7 +5,7 @@ struct info{ char num[25]; char prenom[25];int age;};
 
 int main(){
     int age;
-    char name[50], prenom[50];
+    char name[25], prenom[25];
 
     printf("enter your age: \n");
     scanf("%d", &age);
