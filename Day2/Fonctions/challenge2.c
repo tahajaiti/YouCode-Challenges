@@ -16,7 +16,7 @@ int main (){
 
     double result = produit(a,b);
 
-    printf("le produit est %.4lf", result);
+    printf("le produit est %.4lf", result);//show
 
     return 0;
 }
