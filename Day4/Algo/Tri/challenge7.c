@@ -8,16 +8,16 @@ int compare (const void* a, const void* b){
 
 bool searchb(int tab[], int start, int fin, int var) {
     while (start <= fin) {
-        int milieu = start + (fin - start) / 2;
+        int mid = start + (fin - start) / 2;
 
-        if (tab[milieu] == var)
+        if (tab[mid] == var)
             return true;
 
-        if (tab[milieu] < var)
-            start = milieu + 1;
+        if (tab[mid] < var)
+            start = mid + 1;
 
         else
-            fin = milieu - 1;
+            fin = mid - 1;
     }
     return false;
 }
