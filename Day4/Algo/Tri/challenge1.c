@@ -8,9 +8,9 @@ void swap(int *a, int *b){
 void sort(int tab[],int size){
     int i,j,sp;
 
-    for (i = 0; i < size - 1; i++){
+    for (i = 0; i < size; i++){
         sp = 0;
-        for ( j = 0; j < size - i -1; j++){
+        for ( j = 0; j < size - i; j++){
             if (tab[j] > tab[j+1]){
                 swap(&tab[j],&tab[j+1]);
                 sp = 1;}
@@ -26,7 +26,7 @@ int main(){
     for (int i = 0; i < size; i++){
         printf("%d, ", tab[i]);}
 
-    sort(tab,size);
+    sort(tab,size-1);
 
     printf("\nle tableu sorted: ");
     for (int i = 0; i < size; i++){
